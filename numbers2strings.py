@@ -1,2 +1,2 @@
-nx = 5
+nx = 7
 print('The number is ' + str(nx))
