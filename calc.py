@@ -16,5 +16,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 Type the first number: 2
 Type the second number: 4
+  
 The sum is:  6
 >>> 
