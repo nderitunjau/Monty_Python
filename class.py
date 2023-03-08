@@ -1,4 +1,4 @@
-class car:
+class Car:
     def __init__():
         self.model = "S600"
         self.color = "Red" # ends up on the object
