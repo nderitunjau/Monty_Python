@@ -14,7 +14,6 @@ class Square:
     @height.setter
     def height(self, new_value):
         if new_value >= 0:
-            self.__height = new_value
-            
+            self.__height = new_value   
         else:
             raise Exception("Value must be larger than 0")
