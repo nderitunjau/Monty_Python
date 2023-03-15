@@ -32,6 +32,13 @@ class Game:
 game = Game()
 game.start()
 /*
+Lawrence, select rock, paper or scissor: rock
+Lawrence selects rock
+Joe, select rock, paper or scissor: paper
+Joe selects paper
+
+Process finished with exit code 0
+
 
 
 */
