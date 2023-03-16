@@ -40,8 +40,10 @@ class GameRound:
            p2.incrementPoint()
     def compareChoices(self, p1, p2):
         return self.rules[p1.toNumericalChoice()][p2.toNumericalChoice()]
+    
     def awardPoints(self):
         print("implement")
+        
     def getResultAsString(self, result):
         res = {
             0: "draw",
@@ -56,6 +58,7 @@ class Game:
         self.endGame = False
         self.participant = Participant("Lawrence")
         self.secondParticipant = Participant("Judith")
+        
     def start(self):
         while not self.endGame:
             GameRound(self.participant, self.secondParticipant)
