@@ -73,6 +73,7 @@ class Game:
             print("Game ended, {p1name} has {p1points}, and {p2name} has {p2points}".format(p1name = self.participant.name, p1points= self.participant.points, p2name=self.secondParticipant.name, p2points=self.secondParticipant.points))
             self.determineWinner()
             self.endGame = True
+            
     def determineWinner(self):
         resultString = "It's a Draw"
         if self.participant.points > self.secondParticipant.points:
