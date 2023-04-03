@@ -1,5 +1,6 @@
 class Car:
     def __init__():
+        
         self.model = "S600"
         self.color = "Red" # ends up on the object
         self.make = "Mercedes" # becomes a local variable in the constructor
