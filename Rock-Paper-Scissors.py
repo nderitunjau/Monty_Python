@@ -8,6 +8,7 @@ class Participant:
         self.choice = input("{name}, select rock, paper or scissor: ".format(name= self.name))
         print("{name} selects {choice}".format(name=self.name, choice = self.choice))
         
+        
     def toNumericalChoice(self):
         switcher = {
             "rock": 0,
