@@ -47,9 +47,9 @@ class GameRound:
         
     def getResultAsString(self, result):
         res = {
-            0: "draw",
-            1: "win",
-            -1: "loss"
+                 0: "draw",
+                 1: "win",
+                -1: "loss"
         }       
         return res[result]
     
