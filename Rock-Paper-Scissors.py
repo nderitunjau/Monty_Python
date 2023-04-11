@@ -79,6 +79,7 @@ class Game:
         resultString = "It's a Draw"
         if self.participant.points > self.secondParticipant.points:
             resultString = "Winner is {name}".format(name=self.participant.name)
+            
         elif self.participant.points < self.secondParticipant.points:
             resultString = "Winner is {name}".format(name=self.secondParticipant.name)
         print(resultString)
