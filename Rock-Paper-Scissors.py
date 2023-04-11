@@ -50,7 +50,7 @@ class GameRound:
                  0: "draw",
                  1: "win",
                 -1: "loss"
-        }       
+               }       
         return res[result]
     
 
