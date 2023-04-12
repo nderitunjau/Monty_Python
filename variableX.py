@@ -8,6 +8,7 @@ print(a)
 print(b)
 print(c)
 
+print("Still another way to approach it is:")
 a=b=c=110
 print(a)
 print(b)
