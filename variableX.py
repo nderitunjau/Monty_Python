@@ -1,4 +1,4 @@
 total=110
 sum=total
 
-print(sum)
+print("sum is :",sum)
